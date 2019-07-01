@@ -12,7 +12,7 @@ class ViewController2: UIViewController,UITableViewDelegate, UITableViewDataSour
 
 
     var conditiosArray = ["Influenza (FLU) Adult", "Common cold", "Asthma (Teens Adult)", "Acne Sinusitis", "Viral Pneumonia"]
-    var percentageArray = [0.60,0.30,0.87,0.76,0.51]
+    var percentageArray = [60,30,87,76,51]
     
     @IBOutlet weak var mainTableView: UITableView!
     
@@ -34,14 +34,9 @@ class ViewController2: UIViewController,UITableViewDelegate, UITableViewDataSour
         
         cell.possibleConditionsLabel.text = conditiosArray[indexPath.row]
         cell.percentageLabel.text = "\(percentageArray[indexPath.row])%"
-        
-       // let percentageValue:Int = percentageArray[indexPath.row]
-        //error will get : Expression type '@value CGRect' is ambiguous without more context - for following line
-        //cell.frontViewWidthContraints.constant = cell.backView.frame.width * percentageValue //0.20
-        
-       // let viewWidthInCgFloat = CGFloat(percentageValue)
-      //  cell.frontViewWidthContraints.constant = (cell.backView.frame.width - 23) * (0.01 * viewWidthInCgFloat)
-        cell.progressViewInstance.progress = Float(percentageArray[indexPath.row])
+    
+        let percentageValue:Int = percentageArray[indexPath.row]
+        cell.progressViewInstance.progress = Float(0.01 * Double(percentageValue))
         
         return cell
     }
