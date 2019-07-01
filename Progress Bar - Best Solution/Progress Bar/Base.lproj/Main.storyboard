@@ -18,61 +18,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Progress_Bar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B11-fd-U6S">
-                                <rect key="frame" x="20" y="156" width="374" height="15"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ca6-ck-VsL">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="15"/>
-                                        <color key="backgroundColor" red="0.0" green="0.74901960779999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="15" id="KMi-S5-oGz"/>
-                                            <constraint firstAttribute="width" constant="200" id="SMa-9B-ZR8"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="ca6-ck-VsL" firstAttribute="leading" secondItem="B11-fd-U6S" secondAttribute="leading" id="08k-ZB-zb6"/>
-                                    <constraint firstItem="ca6-ck-VsL" firstAttribute="top" secondItem="B11-fd-U6S" secondAttribute="top" id="Tz3-Xs-C9Y"/>
-                                    <constraint firstAttribute="height" constant="15" id="Wad-Yn-1cv"/>
-                                </constraints>
-                            </view>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="Gzr-EQ-68R">
-                                <rect key="frame" x="20" y="233" width="374" height="2"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="Jfb-Po-VYb"/>
-                                </constraints>
-                            </progressView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Gzr-EQ-68R" firstAttribute="top" secondItem="B11-fd-U6S" secondAttribute="bottom" constant="62" id="4yF-dQ-o3Z"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B11-fd-U6S" secondAttribute="trailing" constant="20" id="5NM-on-Mh1"/>
-                            <constraint firstItem="B11-fd-U6S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SaO-zK-zgi"/>
-                            <constraint firstItem="Gzr-EQ-68R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wcy-pB-n1x"/>
-                            <constraint firstItem="B11-fd-U6S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="xyb-8o-Ne2"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <connections>
-                        <outlet property="backbrounView" destination="B11-fd-U6S" id="nch-BC-vCL"/>
-                        <outlet property="frontView" destination="ca6-ck-VsL" id="zVu-ns-vL2"/>
-                        <outlet property="greenViewWitthConstraints" destination="SMa-9B-ZR8" id="nBv-rj-5dw"/>
-                        <outlet property="progessViewInstance" destination="Gzr-EQ-68R" id="7xY-zL-5DN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="138.58695652173915"/>
-        </scene>
         <!--View Controller2-->
         <scene sceneID="65n-Hl-kIM">
             <objects>
@@ -277,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Das-r5-YhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798.5507246376812" y="138.58695652173915"/>
+            <point key="canvasLocation" x="1388" y="126"/>
         </scene>
     </scenes>
     <resources>
