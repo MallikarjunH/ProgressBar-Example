@@ -38,10 +38,10 @@
                                         <state key="normal" image="backIcon_TPA"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Possible Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXb-kt-nB7">
-                                        <rect key="frame" x="46" y="40" width="168" height="29"/>
+                                        <rect key="frame" x="46" y="40" width="237" height="29"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="168" id="Bo4-PD-OT3"/>
-                                            <constraint firstAttribute="height" constant="29" id="yxN-O8-LoD"/>
+                                            <constraint firstAttribute="width" constant="237" id="H9d-vv-Om3"/>
+                                            <constraint firstAttribute="height" constant="29" id="pIz-bP-h2d"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -88,20 +88,19 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="DXb-kt-nB7" firstAttribute="leading" secondItem="N63-t2-B7c" secondAttribute="trailing" constant="13" id="1bW-Fs-bIx"/>
                                     <constraint firstItem="BgU-2p-hF7" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="38" id="28Z-uA-3XN"/>
                                     <constraint firstItem="Sce-cV-edU" firstAttribute="leading" secondItem="gPO-Ka-Usp" secondAttribute="trailing" constant="20" id="2VC-et-kys"/>
                                     <constraint firstItem="N63-t2-B7c" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="45" id="5YU-DF-ySc"/>
                                     <constraint firstItem="XQK-RS-Mgp" firstAttribute="leading" secondItem="N2i-Wl-o7y" secondAttribute="leading" constant="8" id="6RW-WG-yVr"/>
                                     <constraint firstItem="gPO-Ka-Usp" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="40" id="Et6-Uz-d9Y"/>
                                     <constraint firstItem="N63-t2-B7c" firstAttribute="leading" secondItem="N2i-Wl-o7y" secondAttribute="leading" constant="10" id="G1r-ex-Ec3"/>
-                                    <constraint firstItem="DXb-kt-nB7" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="40" id="GKO-jA-2gp"/>
                                     <constraint firstItem="V1G-bY-cfH" firstAttribute="leading" secondItem="N2i-Wl-o7y" secondAttribute="leading" id="NSk-oF-i1X"/>
-                                    <constraint firstItem="DXb-kt-nB7" firstAttribute="leading" secondItem="N63-t2-B7c" secondAttribute="trailing" constant="13" id="Orb-kU-Wvz"/>
                                     <constraint firstAttribute="trailing" secondItem="BgU-2p-hF7" secondAttribute="trailing" constant="15" id="QD9-uq-Ymg"/>
                                     <constraint firstAttribute="height" constant="90" id="TVF-58-pih"/>
                                     <constraint firstItem="Sce-cV-edU" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="40" id="aKO-Ob-UHA"/>
-                                    <constraint firstItem="gPO-Ka-Usp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DXb-kt-nB7" secondAttribute="trailing" constant="8" symbolic="YES" id="c8t-e0-56h"/>
                                     <constraint firstAttribute="bottom" secondItem="V1G-bY-cfH" secondAttribute="bottom" id="eUF-gn-Ztv"/>
+                                    <constraint firstItem="DXb-kt-nB7" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="40" id="nJE-2k-7EP"/>
                                     <constraint firstAttribute="trailing" secondItem="V1G-bY-cfH" secondAttribute="trailing" id="u4W-IF-3Km"/>
                                     <constraint firstItem="BgU-2p-hF7" firstAttribute="leading" secondItem="Sce-cV-edU" secondAttribute="trailing" constant="15" id="vvK-g5-ZlM"/>
                                     <constraint firstItem="XQK-RS-Mgp" firstAttribute="top" secondItem="N2i-Wl-o7y" secondAttribute="top" constant="34" id="yoP-fB-80r"/>
@@ -222,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Das-r5-YhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="126"/>
+            <point key="canvasLocation" x="1386.9565217391305" y="125.54347826086958"/>
         </scene>
     </scenes>
     <resources>
